@@ -1,1 +1,35 @@
+.Koberl{
+    color: #254380;
+}
 
+h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align:center;
+    font-size: 2.5em; 
+    
+}
+h2 {
+    font-family: sans-serif;
+    color: #3B6BCC;
+    text-align:center;
+}
+h3 {
+     font-family: sans-serif;
+     color: #4987FF;
+     text-transform: uppercase;
+     background-color: #f0f8ff;
+     padding: 1em 4em 1em 2em;
+}
+
+h4 {
+     font-family: sans-serif;
+    color: #96B9FF;
+}
+
+p {
+    font-family: sans-serif;
+}
+.Price{
+    background-color: #ffff00;
+}
