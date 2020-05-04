@@ -1,0 +1,87 @@
+/*CSS DOCUMENT*/
+
+/*futura*/
+    @import url("https://use.typekit.net/qtp4vrh.css");
+/*trajan*/
+    @import url("https://use.typekit.net/qtp4vrh.css");
+
+img {
+width: 50%;
+display:block;
+margin: 3em 22em 0em;
+}
+
+
+header{
+background-color: rgb(139,0,0);
+color: rgb(255,255,255);
+padding:1em;
+}
+
+h1{
+font-family: trajan-sans-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+text-align: center;
+    margin: 0;
+	padding: 0;
+}
+
+h2{
+font-family: futura-pt, sans-serif;
+font-weight: 400;
+font-size: 1.3em;
+font-style: normal;
+text-align:center;
+margin: 0 0 1em;
+text-transform: uppercase;
+}
+
+h3{
+font-family: trajan-sans-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+text-align: center;
+background-color: rgb(139,0,0);
+color: rgb(255,255,255);
+}
+
+.maincontent{
+font-family: futura-pt, sans-serif;
+font-weight: 400;
+font-size: 1.2em;
+font-style: normal;
+}
+
+p{
+font-family: futura-pt, sans-serif;
+font-weight: 400;
+font-size: 1.3em;
+font-style: normal;
+padding: 0em 16em 2em;
+text-align: center;
+color: rgb(139,0,0);
+}
+
+
+div.ingredients {
+width: 40%;
+float:left; 
+
+}
+
+div.directions {
+width: 59%;
+float:left;
+}
+
+h6{
+font-family: trajan-sans-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+float:none;
+clear:both;
+background-color: rgb(139,0,0);
+color: rgb(255,255,255);
+}
