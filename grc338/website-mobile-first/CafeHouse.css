@@ -1,6 +1,7 @@
 @import url("https://use.typekit.net/qtp4vrh.css");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Playfair+Display:wght@500&family=Scope+One&family=Source+Sans+Pro:wght@200&display=swap");
 
+
 img {
     width: 100%;
     display: block;
@@ -12,7 +13,7 @@ nav {
     font-size: 1.2em;
     display: block;
     text-align: right;
-    margin:-2.7em 0.5em 0 0;
+    margin:0 0.5em 0 0;
 }
 
 nav li {
@@ -30,38 +31,33 @@ h1 {
     font-weight: 700;
     font-style: normal;
     font-size: 2.5em;
-    margin-left:0.5em;
+    margin: 0em 0 0 0.5em;
     text-transform: uppercase;
-    position: absolute;
-    top: -1.3em;
-    left: 0;
     color: #a53c5c;
 }
 .image {
     position: relative;
-    margin-top: 4em;
+    margin-top: 0;
 }
 
- p {
+p {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1em;
-    margin: 1em 0em 1em;
+     padding: 1em;
     text-align:center;
-    padding: 1em;
+  
 }
 
 .bio p{
     border: 4px groove #a53c5c;
 }
 .location p{
-    margin-top:-1.5em;
+padding: 0;
 }
 
 
 .mainmenu p {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1em;
-    margin: -2.5em 2.5em 3em 0em;
+    margin: 0 2.5em 3em 0em;
     text-align: center;
 }
 
@@ -87,16 +83,9 @@ h3{
     font-style: normal;
     font-size: 1.5em;
     text-align: center;
-    margin-right:2em;
+    margin: 0 2em 0 0;
     color: #59343E;
     
-}
-
-.location h3 {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1em;
-    margin: -1em 0 1em;
-    text-align: center;
 }
 
 h4 {
@@ -104,7 +93,7 @@ h4 {
     font-weight: 700;
     font-style: normal;
     font-size: 1em;
-    margin: -1em 3em 2em 0;
+    margin: 0 3em 0 0;
     text-align: center;
 }
 
