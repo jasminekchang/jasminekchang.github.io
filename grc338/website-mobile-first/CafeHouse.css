@@ -17,7 +17,121 @@ nav {
 nav li {
     display: inline;
     margin-right: 1.5em;
+}@import url("https://use.typekit.net/qtp4vrh.css");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Playfair+Display:wght@500&family=Scope+One&family=Source+Sans+Pro:wght@200&display=swap");
+
+img {
+    width: 100%;
+    display: block;
 }
+
+nav {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.2em;
+    display: block;
+    text-align: right;
+    margin:-1em 0.5em 0 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1.5em;
+}
+
+nav a {
+    color: #59343e;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: filosofia, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5em;
+    margin-left:1em;
+    text-transform: uppercase;
+    position: absolute;
+    top: -1.3em;
+    left: 0;
+    color: #a53c5c;
+}
+.image {
+    position: relative;
+    margin-top: 4em;
+}
+
+ p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1em;
+    margin: 1em 0em 3em;
+     text-align:center;
+    padding: 1em;
+}
+
+.bio p{
+    border: 4px groove #a53c5c;
+}
+.location p{
+    margin-top:-1.5em;
+}
+
+
+.mainmenu p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1em;
+    margin: -2.5em 2.5em 3em 0em;
+    text-align: center;
+}
+
+h2{
+    font-family: filosofia, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #a53c5c;
+    font-size: 2em;
+    text-align: center;
+    margin:2em 0 2em;
+    border-bottom: 4px solid #a53c5c;
+}
+
+.location h2{
+    margin-bottom: 0.75em;
+    border: none;
+}
+
+h3{
+    font-family: filosofia, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    text-align: center;
+    margin-right:2em;
+    color: #59343E;
+    
+}
+
+.location h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1em;
+    margin: -1em 0 1em;
+    text-align: center;
+}
+
+h4 {
+    font-family: filosofia, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+    margin: -1em 3em 2em 0;
+    text-align: center;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
 
 nav a {
     color: #59343e;
