@@ -2,22 +2,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Playfair+Display:wght@500&family=Scope+One&family=Source+Sans+Pro:wght@200&display=swap");
 
 img {
-    width: 80%;
+    width: 100%;
     display: block;
-    margin: auto;
 }
 
 nav {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.2em;
     display: block;
-    text-align: center;
-    margin-left: 6.5em;
+    text-align: right;
+    margin:-3em 0.5em 0 0;
 }
 
 nav li {
     display: inline;
-    margin-right: 2.5em;
+    margin-right: 1.5em;
 }
 
 nav a {
@@ -30,7 +29,7 @@ h1 {
     font-weight: 700;
     font-style: normal;
     font-size: 2.5em;
-    margin-left: 13em;
+    margin-left:1em;
     text-transform: uppercase;
     position: absolute;
     top: -1.3em;
@@ -46,7 +45,7 @@ h1 {
 .intro p {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.2em;
-    margin: 3em 26em 3em;
+    margin: 3em 2em 3em;
 }
 
 h3 {
@@ -72,7 +71,6 @@ h3 {
 .mainmenu p {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1em;
-    padding: 0 32em 0;
     margin: -1em 2em 3em 0;
     text-align: center;
 }
@@ -103,4 +101,3 @@ h5 {
 ul {
     list-style: none;
 }
-
