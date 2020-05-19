@@ -44,11 +44,15 @@ h1 {
  p {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1em;
-    margin: 3em 2em 3em;
+    margin: 3em 0em 3em;
      text-align:center;
+     padding:2em;
+}
+.bio p{
+    border: 4px groove #a53c5c;
 }
 .location p{
-    margin-top:0;
+    margin-top:-1.5em;
 }
 
  font-family: "Source Sans Pro", sans-serif;
@@ -57,7 +61,6 @@ h1 {
 }
 
 h2 {
-
 }
 
 .mainmenu h3 {
@@ -73,8 +76,10 @@ h2 {
 .mainmenu p {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1em;
-    margin: -1em 2em 3em 0;
+    margin: -3em 2em 3em 0;
     text-align: center;
+
+
 }
 
 h4 {
@@ -93,11 +98,13 @@ h2{
     color: #a53c5c;
     font-size: 2em;
     text-align: center;
-    margin:2em 0 1.25em;
+    margin:2em 0 2em;
+    border-bottom: 4px solid #a53c5c;
 }
 
 .location h2{
     margin-bottom: 0.75em;
+    border: none;
 }
 .location h3 {
     font-family: "Source Sans Pro", sans-serif;
