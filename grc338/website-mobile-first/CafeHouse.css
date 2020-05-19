@@ -11,7 +11,7 @@ nav {
     font-size: 1.2em;
     display: block;
     text-align: right;
-    margin:-3em 0.5em 0 0;
+    margin:-1em 0.5em 0 0;
 }
 
 nav li {
@@ -76,7 +76,9 @@ h3 {
 }
 
 h5 {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: filosofia, serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 1em;
     margin: -2.7em 2em 2em 0;
     text-align: center;
@@ -101,3 +103,4 @@ h5 {
 ul {
     list-style: none;
 }
+
