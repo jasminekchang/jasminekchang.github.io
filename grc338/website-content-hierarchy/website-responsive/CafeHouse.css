@@ -1,0 +1,177 @@
+@import url("https://use.typekit.net/qtp4vrh.css");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Playfair+Display:wght@500&family=Scope+One&family=Source+Sans+Pro:wght@200&display=swap");
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+header img{
+    width: 100%;
+    max-width: 20em;
+    margin: auto;
+}
+
+
+nav {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.2em;
+     text-align:center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1.5em;
+}
+
+nav a {
+    color: #59343e;
+    text-decoration: none;
+}
+
+
+h1 {
+    font-family: filosofia, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5em;
+    color: #a53c5c;
+    text-align:center;
+    margin-top: 1.3em;
+}
+.image {
+    position: relative;
+    margin-top: 0;
+}
+
+p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1em;
+   text-align: center;
+    padding: 0 3em 0;
+}
+
+.location p{
+margin: 0.5em;
+}
+
+
+.mainmenu p {
+    margin: 0 2.5em 3em 0em;
+    text-align: center;
+}
+
+.bio p{
+    margin-top: 2em;
+}
+
+h2{
+    font-family: filosofia, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #a53c5c;
+    font-size: 2em;
+    text-align: center;
+    margin:2em 0 2em;
+    border-bottom: 4px solid #a53c5c;
+}
+
+.location h2{
+    margin-bottom: 0.6em;
+    border: none;
+}
+
+h3{
+    font-family: filosofia, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 2em 2em 0 0;
+    color: #59343E;
+    
+}
+
+h4 {
+    font-family: filosofia, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+    margin: 0 3em 0 0;
+    text-align: center;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+
+/*----------------------------------------------------------------*/
+
+@media only screen and (min-width: 40em) {
+        .homepage img{
+        width:70%;
+        margin:auto;
+    }
+    img {
+    width: 50%;
+    }
+    
+ p{
+        margin: 0 5em 2em;
+    }
+    
+.homepage img{
+    margin:auto;
+}
+}
+    
+
+@media only screen and (min-width: 60em) {
+
+  .homepage img{
+        width:33%;
+    }
+
+    .homepage img{
+    float:left;
+    margin-left:0.13em;
+    margin-bottom: auto;
+    overflow: hidden;
+    }
+
+    .Berkeley, .LA, .Irvine, .Cupertino, .Fremont{
+        float:left;
+        margin-bottom: 4em;
+    }
+
+    .bio p{
+        margin: 2em 5em 2em;
+    }
+}
