@@ -75,6 +75,7 @@ p {
     font-weight: 900;
    text-align: center;
     padding: 0 3em 0;
+    margin-bottom: 1.5em;
 }
 
 .location p{
@@ -83,7 +84,7 @@ margin: 0.5em;
 
 
 .mainmenu p {
-    margin: 0 2.5em 3em 0em;
+    margin-bottom: 3em;
     text-align: center;
 }
 
