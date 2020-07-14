@@ -1,0 +1,92 @@
+/*CSS document*/
+@import url("https://use.typekit.net/qtp4vrh.css");
+
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+header img{
+    width: 40%
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+nav a, main a, aside a{
+    text-decoration: none;
+    color: #000000;
+}
+
+nav, body{
+    font-family: alibaba-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav li{
+    display: inline;
+    margin-right: 1.5em;
+}
+
+nav{
+    margin-bottom: 1.5em;
+}
+
+h2, h3{
+    color: #EF1151;
+}
+
+h3{
+    margin: 1em 2em 1em;
+}
+
+p{
+    font-size: 1em;
+    margin: 0 2.4em 3em;
+    color: #000000;
+}
+
+figcaption{
+    font-size: .8em;
+    font-style: italic;
+    margin-bottom: 2em;
+}
+
+div.textstory{
+    padding-top: 1em;
+}
+div.mainstory, div.picturestory, div.textstory{
+    margin-top:2em;
+    background-color: #F0A59E;
+    border-radius: 2em;
+    padding-bottom: 0.1em;
+    box-shadow: 0 4em 5em -5em rgb(54,37,35);
+}
+
+#mainstory figure img{
+    border-radius: 2em;
+}
+
+#mainstory div.picturestory{
+    margin-top: 3em;
+}
+
+footer{
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 2em;
