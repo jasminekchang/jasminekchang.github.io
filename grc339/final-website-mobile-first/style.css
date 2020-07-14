@@ -17,10 +17,11 @@ figure img {
     border-top-right-radius: 2em;
 }
 
-header img{
-    width: 40%
+header img {
+    width: 40%;
+    display: block;
+    margin:auto;
 }
-
 ul {
     list-style-type: none;
     padding: 0;
@@ -41,10 +42,12 @@ nav, body{
 nav li{
     display: inline;
     margin-right: 1.5em;
+    
 }
 
 nav{
     margin-bottom: 1.5em;
+    text-align: center;
 }
 
 h2, h3{
@@ -70,6 +73,7 @@ figcaption{
 div.textstory{
     padding-top: 1em;
 }
+
 div.mainstory, div.picturestory, div.textstory{
     margin-top:2em;
     background-color: #F0A59E;
