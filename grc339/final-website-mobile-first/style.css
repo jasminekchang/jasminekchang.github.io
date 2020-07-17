@@ -74,12 +74,28 @@ section.textstory{
     padding-top: 1em;
 }
 
-section.mainstory, section.picturestory, section.textstory{
+.mainstory, .picturestory, .textstory{
     margin-top:2em;
     background-color: #F0A59E;
     border-radius: 2em;
     padding-bottom: 0.1em;
     box-shadow: 0 4em 5em -5em rgb(54,37,35);
+}
+
+.photogallery img{
+    border-radius: 2em;
+}
+
+
+.photogallery h3{
+font-family: fave-script-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 3.4em;
+margin: auto;
+text-align: center;
+position: relative;
+top: 0.5em;
 }
 
 #mainstory figure img{
@@ -100,13 +116,13 @@ img{
     width:100%;
 }
 
-main {
+.gallery {
     position: relative;
     overflow: hidden;
     padding-bottom: calc(72% + 3em);
 }
 
-main.gallery figure{
+.gallery figure{
     margin: 0;
     width: calc(100%-5em);
     position: absolute;
@@ -115,6 +131,9 @@ main.gallery figure{
     border-radius: 2em;
 }
 
+.gallery img{
+    border-radius: 2em;
+}
 
 figcaption {
     font-size: 1em;
